@@ -1,61 +1,124 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cassiopeia Regaleria</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Cassio Regalería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <div class="contenedorc">
-       <header class="cabecera">
-           <h1>Cassiopeia regaleria Productos</h1>  
-      </header>    
-  
-  
-     <nav class="botoneradenavegacion">
-         <ul>
-            <li> <a href="../index.html"> Home </a> </li>
-            <li> <a href="./productos.html"> Productos </a> </li>
-            <li> <a href="./preguntasfrecuentes.html"> Preguntas frecuentes </a> </li>         
-         </ul>
-     </nav>
-  
-     <main class="catalogo">
-            <section class="agendas">
-               <h2> Agendas</h2>
-               <a href="https://www.whatsapp.com/?lang=es"> Hace tu pedido</a> 
-               <img src="../assets/articulo1.jpeg" alt="agendas de resina"> <p>articulo 1</p> <p>Descripcion del producto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, fugiat.</p>
-               <img src="../assets/articulo2.jpeg" alt="agenda de resina"> <p>Articulo 2</p> <p>Descripcion del producto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, unde!</p>
-               <iframe src="https://assets.pinterest.com/ext/embed.html?id=27232772737342672" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
-   
-            </section>
-          <section class="separadorlibro">
-              <h3>Separadores de libro</h3>
-              <img src="../assets/articulo3.jpeg" alt="separador de libro"> <p>articulo 3</p> <p> Descripcion del producto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, ipsum!</p>
-              <img src="../assets/articulo4.jpeg" alt="separador de libro"> <p>articulo 4</p> <p>Descripcion del producto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, explicabo.</p>
-              <img src="../assets/articulo5.jpeg" alt="separador de libro"> <p>articulo 5</p> <p>descripcion del producto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, quae.</p>
-               <a href="https://www.whatsapp.com/?lang=es"> Hace tu pedido</a>          
-           </section>
+    <div class="container-fluid">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">
+                  <p class="h2">CASSIOPEIA</p>
+                  <p class="h6">regalería</p>
+                </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="../html/preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                  </li>          
+                  <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+          </header>
+    </div>
 
-         <section class="nombredemascota">
-              <h4>Nombres para mascotas</h4>
-              <img src="../assets/articulo6.jpeg" alt=""> <p>articulo 6</p> <p>descripcion. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ea.</p>
-              <img src="../assets/articulo7.jpeg" alt=""><p>articulo 7</p> <p>descripcion. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ea.</p>
-              <img src="../assets/articulo8.jpeg" alt=""><p>articulo 8</p> <p>descripcion. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ea.</p>
-              <a href="https://www.whatsapp.com/?lang=es"> Hace tu pedido</a>         
-           </section>
-      </main>
-     
-   </div> 
-   <footer class="redessociales">
-    <h4>Vias de contacto</h4>
- <ul>
-      <li> <a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></li>
-      <li> <a href="https://es-la.facebook.com/" target="_blank">facebook</a></li>
-      <li> <a href="https://www.whatsapp.com/?lang=es" target="_blank">whatsapp</a></li>
- </ul>
-</footer>   
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="d-block w-100" id="animacion" src="../assets/articulo1.jpeg" alt="art">
+            <p class="h2">PRODUCTO</p>
+            <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+
+            </div>
+          <div class="col">
+            <img class="d-block w-100"  id="animacion" src="../assets/articulo2.jpeg" alt="art">
+            <p class="h2">PRODUCTO</p>
+            <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+          </div>
+          <div class="col">
+            <img class="d-block w-100"  id="animacion" src="../assets/destacado2.jpg" alt="art">
+            <p class="h2">PRODUCTO</p>
+            <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="d-block w-100"  id="animacion" src="../assets/articulo3.jpeg" alt="art">
+            <p class="h2">PRODUCTO</p>
+            <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+          </div>
+          <div class="col">
+            <img class="d-block w-100"  id="animacion" src="../assets/articulo4.jpeg" alt="art">
+            <p class="h2">PRODUCTO</p>
+            <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+          </div>
+          <div class="col">
+            <img class="d-block w-100"  id="animacion" src="../assets/articulo5.jpeg"  alt="art">
+            <p class="h2">PRODUCTO</p>
+            <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+              <img class="d-block w-100"  id="animacion" src="../assets/articulo6.jpeg" alt="art">
+              <p class="h2">PRODUCTO</p>
+              <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+            </div>
+            <div class="col">
+              <img class="d-block w-100"  id="animacion" src="../assets/articulo7.jpeg" alt="art">
+              <p class="h2">PRODUCTO</p>
+              <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+            </div>
+            <div class="col">
+              <img class="d-block w-100"  id="animacion" src="../assets/articulo8.jpeg" alt="art">
+              <p class="h2">PRODUCTO</p>
+              <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum.</p>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+
+        <div class="container">
+                <footer class="bg-dark text-white">
+                    <ul>
+                        <li> <a href="https://facebook.com">Facebook</a></li>              
+                        <li> <a href="https://instagram.com">Instagram</a></li>           
+                        <li> <a href="https://youtube.com">YouTube</a> </li>          
+
+                    </ul>
+                   
+                    <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2);">
+                     
+                      <a class="text-white" href="index.html">Volver Arriba</a>
+                    </div>
+                    
+                </footer>
+        </div>
+    </div>
+    <script src="styles/js/bootstrap.js"></script>
 </body>
 </html>
